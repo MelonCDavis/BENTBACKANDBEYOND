@@ -3,6 +3,8 @@ responsive tattoo website
 <br>
 Hello and thank you for looking!
 <br>
+Please keep in mind the following page does have some art pieces that may be considered NSFW.  They are just art.
+<br>
 My name is Melon Davis and I have been tattooing since 2004. I'm going to continue to tattoo while I get the coding bootcamp finished up and until I have actually solidified myself in something of a tech job that's real ish.
 <br>
 This site is an "about me" resource for advertising my tattoo art, telling my story, providing resources for clients and in the end selling art that I make that aren't tattoos. I can use this with other social media and links from other sources to help drive business to me as long as I continue to work in the field of tattoo art.
