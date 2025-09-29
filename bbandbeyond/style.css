@@ -36,11 +36,8 @@ h2 {
 }
 
 .drag {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 320px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   cursor: grab;
 }
@@ -57,10 +54,6 @@ h2 {
 }
 
 .reset {
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
   padding: 15px 25px;
   border: none;
   background: #fff;
@@ -71,14 +64,26 @@ h2 {
   text-transform: uppercase;
   font-family: "Permanent Marker";
   font-size: larger;
+  display: block;
+  margin: 0 auto;
+  
 }
 .board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  
+  
 }
 .dropBox {
   width: 140px;
   height: 140px;
   background: #0003;
 }
+
+#puzzle {
+  display:flex;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
