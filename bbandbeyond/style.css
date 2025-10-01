@@ -38,12 +38,12 @@ h2 {
 .drag {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 1rem;
   cursor: grab;
 }
 .drag .dragBox {
-  width: 100px;
-  height: 100px;
+  width: 6rem;
+  height: 6rem;
   background: #0003;
 }
 .images {
@@ -71,19 +71,20 @@ h2 {
 .board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: .5rem;
   
   
 }
 .dropBox {
-  width: 140px;
-  height: 140px;
+  width: 8rem;
+  height: 8rem;
   background: #0003;
 }
 
 #puzzle {
   display:flex;
   flex-wrap: wrap;
-  gap:20px;
+  gap:2rem;
 }
+
 
